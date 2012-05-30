@@ -11,6 +11,7 @@ URL:		http://www.tizen.com
 Provides:	system-release = %{version}-%{release}
 BuildArch:	noarch
 Source0:    RPM-GPG-KEY-tizen02
+Source1001: packaging/tizen-release.manifest 
 
 %description
 Tizen release files such as various /etc/ files that define the release.
@@ -18,6 +19,7 @@ Tizen release files such as various /etc/ files that define the release.
 %prep
 
 %build
+cp %{SOURCE1001} .
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -37,6 +39,7 @@ popd
 rm -rf $RPM_BUILD_ROOT
 
 %files
+%manifest tizen-release.manifest
 %config %attr(0644,root,root) /etc/tizen-release
 /etc/system-release
 /etc/pki/rpm-gpg
