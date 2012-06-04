@@ -1,0 +1,11 @@
+* Mon Jun 04 2012 Anas Nashif <anas.nashif@intel.com> 46e794f
+- Update release number
+
+* Wed May 30 2012 Ryan Ware <ryan.r.ware@intel.com> 831e857
+- Add default Smack manifest for tizen-release.spec
+
+* Mon May 21 2012 Kim Kibum <kb0929.kim@samsung.com> b4b8fc2
+- Upload Tizen:Base source
+[ Hyesook Choi ]
+- Initial empty repository
+
