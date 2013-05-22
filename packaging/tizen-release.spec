@@ -1,5 +1,5 @@
 %define release_name Tizen
-%define dist_version 2.1.0
+%define dist_version 2.1.1
 
 Summary:	Tizen release files
 Name:		tizen-release
