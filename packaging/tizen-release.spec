@@ -1,9 +1,9 @@
 %define release_name Tizen
-%define dist_version 2.1.1
+%define dist_version 2.2.0
 
 Summary:	Tizen release files
 Name:		tizen-release
-Version:	2.1.1
+Version:	2.2.0
 Release:	1
 License:	GPLv2
 Group:		System/Base
